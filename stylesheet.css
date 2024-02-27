@@ -1,20 +1,2 @@
 #mylink {color:teal}
 
-#mylink:link {
-  color: #FF0000;
-}
-
-/* visited link */
-#mylink:visited {
-  color: #00FF00;
-}
-
-/* mouse over link */
-#mylink:hover {
-  color: #FF00FF;
-}
-
-/* selected link */
-#mylink:active {
-  color: #0000FF;
-}
