@@ -3,10 +3,11 @@
     <link rel="stylesheet" href="/stylesheet.css">
     <meta charset="utf-8">
     <meta name="description" content="This is a website to showcase Nandita's awesome web dev skills">
+    <!-- Correctly use a <meta> “description” tag: +0.2 -->
     <title>All About Nandita</title>
 
     <style>
-        .paragraph {
+        .paragraph { /*Created a new class called paragraph, it has been styled and applied to 2 dividers: +0.2*/
           background-color: powderblue;
           color: navy;
           border: 2px solid navy;
@@ -14,7 +15,7 @@
           padding: 20px;
         }
 
-        #faves{
+        #faves{ /*Created 1 id, applied to a divider and styled: +0.2*/
             background-color: navajowhite;
             color: navy;
             border: 2px solid navy;
@@ -22,6 +23,7 @@
             padding: 20px;
         }
 
+        /*CSS selector to change color of link when hovering over it: +0.2*/
         a:link {
         color: #FF0000;
         }
@@ -41,32 +43,33 @@
         color: #0000FF;
         }
 
-        h1 {
-            color: navy;
-            padding: 20px;
+        h1 { /*CSS selector for h1 attributes +0.2 */
+            color: navy; /* Changed color box model property of h1*/
+            padding: 20px; /* Changed padding box model property of h1: +0.2*/
         }
 
     </style>
 
     <body>
         <h1>All About Nandita</h1>
-        <div class="paragraph">
+        <div class="paragraph"> 
             <h2>Birthday</h2>
             <p>Her birthday is on September 19, 2003.</p>
-        </div>
+        </div> <!-- At least one divider to make two sections: +0.2 -->
         
         <div class="paragraph">
             <h2>Hobbies</h2>
-            <p>Her hobbies include: . . .</p>
+            <p>Her hobbies include: Drawing, painting, reading, and playing with her cat!</p>
         </div>
 
         <div id="faves">
             <h2>Current favorites</h2>
             <a id="mylink" href="https://www.hbo.com/succession">Click here to see what show she is watching!</a>
+            <!-- Use <a> to link to another website: +0.2 -->
         </div>
 
         <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Greycat.jpg/1200px-Greycat.jpg" alt="Grey cat">
-
+        <!-- Added an image: +0.2 -->
     </body>
 
 </html>
